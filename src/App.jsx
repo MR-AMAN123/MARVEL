@@ -1,6 +1,6 @@
 import React from "react";
 import { Main } from "./components/Main";
-import './Components/style.css';
+import './components/style.css';
 import { Routes,Route } from "react-router-dom";
 import { Marvel } from "./components/Marvel";
 
