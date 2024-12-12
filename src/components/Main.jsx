@@ -26,7 +26,7 @@ export const Main = () => {
         <div className="search-bar">
             <img src="./logo.jpg" alt="logo" />
             <input type="search" placeholder='Search Here' className='search'  onChange={e=>setSearch(e.target.value)}
-                 onKeyPress={searchMarvel}/>
+                 onKeyDown={searchMarvel}/>
         </div>
     </div>
     <div className="content">
